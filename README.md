@@ -1,4 +1,8 @@
+
 # StreamPhoneData
+feel free to cite this code using the doi; 
+[![DOI](https://zenodo.org/badge/90114835.svg)](https://zenodo.org/badge/latestdoi/90114835)
+
 Some matlab scripts to stream sensor data from Android and Iphone to Matlab
 
 To use this software: 
