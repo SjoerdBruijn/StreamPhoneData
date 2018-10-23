@@ -52,6 +52,8 @@ for i_time = 1:N_sample
     set(h_plot(1),'Xdata',t(~isnan(acc(:,1))),'Ydata',acc(~isnan(acc(:,1)),1))
     set(h_plot(2),'Xdata',t(~isnan(acc(:,1))),'Ydata',acc(~isnan(acc(:,1)),2))
     set(h_plot(3),'Xdata',t(~isnan(acc(:,1))),'Ydata',acc(~isnan(acc(:,1)),3))
+    pause(0.001)
+    
     drawnow
 end
 %% Closing and deleting connections (keep these in your program!)
