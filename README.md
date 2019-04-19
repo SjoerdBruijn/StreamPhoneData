@@ -3,7 +3,7 @@
 feel free to cite this code using the doi; 
 [![DOI](https://zenodo.org/badge/90114835.svg)](https://zenodo.org/badge/latestdoi/90114835)
 
-Some matlab scripts to stream sensor data from Android and Iphone to Matlab
+Some matlab scripts to stream the data from the sensors (accelerometers, gyroscopes, GPS, and whatever more your phone may have) in your smartphone (Android or Iphone) to Matlab
 
 To use this software: 
 1.	Download the measurement software; for android, download ‘IMU+GPS-Stream’; for Iphone/Ipad, download ‘Sensorlog’ (by Bernd Thomas).
