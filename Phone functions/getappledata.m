@@ -28,7 +28,7 @@ function [t_acc,acc,om,t_om]=getappledata(phonelistener)
 
 t_acc   = nan;
 acc     = nan(1,3);
-t_om    = nan(1,3);
+t_om    = nan(1);
 om      = nan(1,3);
 
 
