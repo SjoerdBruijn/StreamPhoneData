@@ -17,7 +17,7 @@
 % for general use (i.e. proper commenting, cleanup of code, etc)
 
 %% Resetting MATLAB environment
-instrreset; clear ; close all; clc
+ clear ; close all; clc
 addpath('Phone functions');
 
 %% general setting
