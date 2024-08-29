@@ -1,4 +1,4 @@
-function androidlistener=makeandroidlistener()
+function androidlistener=makeandroidlistener(IpAdress)
 % androidlistener=makeandroidlistener()
 % function that generates a UDP phone listener object to listen to android
 % phones. Use getandroiddata subsequently.
@@ -7,10 +7,12 @@ function androidlistener=makeandroidlistener()
 % output:
 % androidlistener : UDP object that listens to incoming signals on port
 % 5000.
-
+arguments
+    IpAdress = '192';
+end
 
 %% display IP adress;
-target      ='192';
+target      =IpAdress;
 IPaddress   = [];
 iterNetwork = java.net.NetworkInterface.getNetworkInterfaces();
 while (iterNetwork.hasMoreElements())
