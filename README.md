@@ -10,7 +10,7 @@ Some matlab scripts to stream the data from the sensors (accelerometers, gyrosco
 
 MathWorks Products(<www.mathworks.com>)
 
-- MATLAB®
+- MATLAB® Desktop
 - Instrument Control Toolbox™ ([udpport](https://www.mathworks.com/help/instrument/udpport.html) build-in function）
 
 ## How to get started
