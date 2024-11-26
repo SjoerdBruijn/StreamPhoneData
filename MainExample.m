@@ -47,7 +47,9 @@ for i_time = 1:N_sample
     
     %% Android: IMU+GPS Stream
     [t(i_time,:), acc(i_time,:)]        = getandroiddata(phonelistener);
-    
+    %% Android: HyperIMU
+    % [t(i_time,:), acc(i_time,:)]      = getandroiddata_hyperIMU(phonelistener);
+
     %% plot here
     set(h_plot(1),'Xdata',t(~isnan(acc(:,1))),'Ydata',acc(~isnan(acc(:,1)),1))
     set(h_plot(2),'Xdata',t(~isnan(acc(:,1))),'Ydata',acc(~isnan(acc(:,1)),2))
