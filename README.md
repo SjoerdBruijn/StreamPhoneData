@@ -17,11 +17,11 @@ MathWorks Products(<www.mathworks.com>)
 
 To use this software:
 
-1. Download the measurement software; for android, download ‘IMU+GPS-Stream’; for Iphone/Ipad, download ‘Sensorlog’ (by Bernd Thomas).
+1. Download the measurement software; for android, download ‘IMU+GPS-Stream’ or 'Hyper IMU'; for Iphone/Ipad, download ‘Sensorlog’ (by Bernd Thomas).
 2. If you have an Iphone/Ipad, open your Sensorlog, click the settings icon. In the settings, in the “log data to” select “socket”. In the lower tab, make sure that only “accelerator” (ACC) and “gyroscope” (GYR) are switched on. Also, fully at the bottom, make sure that “fill missing data with previous sample” is switched on. (see screenshots in screenshots apple folder)
 3. Connect with both your phone and laptop to the same Wifi network.
 4. Open the MainExample file. Since this program is written for different devices, you should now uncomment the appropriate lines (see comments in the script). You have to do this BOTH at the beginning of the script, and in the middle somewhere.
-5. For android: You can now run this script. This Matlab script will open up a connection, and display an IP address on which it can be reached. This IP address (the address on which your computer can be reached) should start with 192. If you are at a network that does not use the 192. addresses, change the IpAdress in the script. Input the Ip adress in your phone, as well as the port (50000). Also, to avoid problems, make sure to check the "run in background". As soon as you switch the stream to on, you should see your accelerometer data in Matlab
+5. For android: You can now run this script. This Matlab script will open up a connection, and display an IP address on which it can be reached. This IP address (the address on which your computer can be reached) should start with 192. If you are at a network that does not use the 192. addresses, change the IpAdress in the script. Input the Ip adress in your phone, as well as the port (50000). (for Hyper IMU, see screenshots) Also, to avoid problems, make sure to check the "run in background". As soon as you switch the stream to on, you should see your accelerometer data in Matlab
 6. FOR IPHONE in the block of code you just uncommented, it also says:
 IpAdress='192.168.1.72';
 Port=61904;
